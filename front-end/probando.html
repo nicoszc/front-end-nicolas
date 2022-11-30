@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>calistenia app</title>
+<!--no tocar links de css-->
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="css2/calistenia.css"> 
+  </head>
+  <body>
+<!-- barra de arriba-->
+	<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid bg-dark text-center  border-light">
+    <a class="navbar-brand" href="#"> 
+	<img src="imagenes/logo.png" alt="logo" class="imagen-1 mr-5" style="max-height:70px; max-width:70px;border-radius:20px;">
+	<span class="text-light fs-5 fw-bold border border-primary rounded-circle mx-5">WikiCalistenia</span>
+	</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	
+	<!--botones-->
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item ">
+          <a class="nav-link active text-light " aria-current="page" text-secondary href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Ejercicios</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+            Rutinas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex " role="search">
+        <input class="form-control me-2 " type="email" placeholder="Buscador" aria-label="email">
+        <button type="button" class="btn btn-outline-primary" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	
+<!-- primer ejercicio-->	
+<section class="w-30 mx-auto text-center mt-5 fs-2" id="intro"> 
+<h2 class="p-3 fs-4 border-top border-3" style="color:white">La calistenia es un proceso de <span class="text-primary">ejercicios físicos con el propio peso corporal</span>. En este sistema, el interés está
+ en los movimientos de las cadenas musculares que componen nuestro cuerpo. Etimológicamente la palabra proviene del griego kalos (belleza) y sthenos (fortaleza). El objetivo es la adquisición de fuerza, resistencia, agilidad, equilibrio, coordinación y flexibilidad a través de un entrenamiento
+ con el propio peso corporal.</h2>
+</section>
+<!--columnas de info-->	
+<section class="container-fluid">
+<div class="row">
+<div class="col-md p-3 fs-5 " align="left"  style="color:white">
+ <h3>Los ejercicios de calistenia más comunes son:</h3>
+ <li>Las dominadas</li>
+ <li> Las flexiones</li>
+ <li> Push-ups</li>
+ <li> Los fondos en barras paralelas</li>
+ <li> Muscle-Ups</li>
+ <li> Sentadillas</li>
+ <li> Abdominales y planchas</li>
+</div>
+<div class="col-md p-3 fs-5" align="left"  style="color:white">
+<h3>La calistenia favorece:</h3>
+ <li>Fuerza física</li>
+ <li>La flexibilidad</li>
+ <li>La agilidad</li>
+ <li>La coordinación</li>
+ <li>La propiosepción</li>
+</div>
+</div>
+</section>
+<section class="mx-auto text-center pt-5">
+<p style="color:white"class="p-3 fs-5 border-top border-3"><span class="text-primary">Dominada prona:</span> con el agarre prono las palmas de las manos deben mirar hacia adelante. La anchura del agarre debe de ser como máximo 1,5 veces el ancho biacromial, es decir, el ancho de los hombros. El movimiento comienza tirando con los dorsales y no con los bíceps, si además 
+al hacer esto se saca pecho, se reducirá drásticamente el estrés de los hombros. Cuando se esté realizando la fase concéntrica del ejercicio, los codos deben permanecer en los costados y nunca se deben poner por
+ delante de uno mismo a no ser que se desee enfatizar el trabajo de bíceps y antebrazos.</p>
+</section>
+	
+	
+<!-- imagenes de dominadas-->	
+<div id="carouselExampleControls1" class="carousel slide " data-bs-ride="carousel">
+  <div class="carousel-inner border border-light border border-5">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="imagenes/dominadas1.png" class="d-block w-100 rounded" alt="foto1">
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="imagenes/dominadas2.png" class="d-block w-100 rounded" alt="foto2">
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="imagenes/dominadas3.png" class="d-block w-100 rounded" alt="foto3">
+    </div>
+  </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--segundo ejercisio-->
+<section class="w-55 mx-auto text-center mt-5 fs-2" id="intro"> 
+<p style="color:white"class="p-3 fs-5"><span class="text-primary">La flexión de codos:</span> es un ejercicio que involucra los codos, también conocida como lagartijas, push-ups, plancha, pechada o simplemente flexión, es un ejercicio físico realizado estando en posición inclinada, recostado hacia abajo, levantando el cuerpo únicamente
+ con los brazos y bajando de nuevo al suelo. Está dedicado al desarrollo de los músculos pectorales y el tríceps, con beneficios adicionales para los deltoides, el serrato anterior, el coracobraquial e isométricamente el abdomen. Dependiendo del tipo de flexión su acción puede estar más
+ focalizada en los pectorales, los deltoides o los tríceps. </p>
+</section>
+<!--imagenes de flexiones-->
+<div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner border border-light border border-5">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="imagenes/flexiones1.png" class="d-block w-100 rounded" alt="foto1">
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="imagenes/flexiones2.png" class="d-block w-100 rounded" alt="foto2">
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="imagenes/flexiones3.png" class="d-block w-100 rounded" alt="foto3">
+    </div>
+  </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--tercer ejercisio-->
+<section class="w-55 mx-auto text-center mt-5 fs-2" id="intro"> 
+<p style="color:white" class="p-3 fs-5"><span class="text-primary">La sentadilla o cuclilla: </span>(en dependencia del grado de flexión de rodillas y caderas, siendo mayor en la cuclilla) es uno de los ejercicios básicos del entrenamiento de fuerza. Trabaja directamente los músculos del muslo, músculos de la cadera y glúteos,
+ y fortalece los huesos, ligamentos y tendones de piernas y caderas.Considerado durante mucho tiempo un ejercicio vital para desarrollar fuerza y volumen en los músculos de las piernas y los glúteos, ha sido objeto de considerable controversia en los últimos años, debido a la acusación por parte de algunos entrenadores de que las sentadillas aumentan
+ la probabilidad de sufrir lesiones lumbares y de rodilla.</p>
+</section>
+
+
+<!--imagenes de sentadillas-->
+<div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner border border-light border border-5">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="imagenes/sentadilla1.png" class="d-block w-100 rounded" alt="foto1">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="imagenes/sentadilla2.png" class="d-block w-100 rounded" alt="foto2">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="imagenes/sentadilla3.png" class="d-block w-100 rounded" alt="foto3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--de todo un poco-->
+<section class="w-55 mx-auto text-center mt-5 fs-2" id="intro"> 
+<p style="color:white" class="p-3 fs-5"><span class="text-primary">calistenia cooperativa </span>La calistenia cooperativa se refiere a ejercicios calisténicos que involucran a dos o más participantes que se ayudan entre sí para realizar el ejercicio. Dichos ejercicios también se conocen como ejercicios de pareja o ejercicios de peso corporal con una pareja. Por lo general, una persona realiza el ejercicio y la otra agrega resistencia. Por ejemplo, una persona que realiza sentadillas con alguien en la espalda. Algunos ejercicios también implican el uso de equipos. Dos personas pueden aferrarse a diferentes extremos de una cuerda y tirar en diferentes direcciones. Una persona proporcionaría deliberadamente una menor cantidad de resistencia, lo que agrega resistencia al ejercicio y al mismo tiempo permite que la otra persona se mueva a través de un rango completo de movimiento a medida que
+ su aplicación de nivel superior de fuerza tira de la cuerda. </p>
+</section>
+
+<!--barra final-->
+<div class="container-fluid overflow-hidden text-center mt-4 mb-5 fs-4 border border-light">
+  <div class="row gy-2 bg-dark text-center  border-light">
+    <div class="col-6">
+      <div class="p-3  bg-dark mt-1 mb-1"><p style=color:white><u>Creado por: </u></p><li style=color:white>Nicolas S.</li></div>
+    </div>
+	<div class="col-6">
+      <div class="p-3  bg-dark mt-1 mb-1"><p style=color:white><u>Colaboraciones: </u></p><li style=color:white>BarBarians</li><li style=color:white>BarMonkeys</li></div>
+    </div>
+    <div class="col-6">
+      <div class="p-3  bg-dark mt-1 mb-1 "><p style=color:white><u>Contacto: </u></p><a class="page-link " href="#"><p style=color:rgb(16,153,172)>Ayuda y soporte</p></a> <a class="page-link " href="#"><p style=color:rgb(16,153,172)>Instagram</p></a></div>
+    </div>
+    <div class="col-6">
+      <div class="p-3  bg-dark mt-1 mb-1"><p style=color:white><u>Apartado legal: </u></p><a class="page-link " href="#"><p style=color:rgb(16,153,172)>Condiciones de uso</p></a><a class="page-link " href="#"><p style=color:rgb(16,153,172)>Politicas de privacidad</p></a></div>
+    </div>
+    
+  </div>
+</div>
+
+<!--paginas-->
+<nav aria-label="Page navigation example ">
+  <ul class="pagination justify-content-center pagination-border-radius:30px ; ">
+    <li class="page-item disabled ">
+      <a class="page-link bg-dark" href="#">anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link bg-dark" href="#">1</a></li>
+    <li class="page-item"><a class="page-link bg-dark" href="#">2</a></li>
+    <li class="page-item"><a class="page-link bg-dark" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link bg-dark" href="#">siguiente</a>
+    </li>
+  </ul>
+</nav>
+
+
+
+
+<!-- no tocar bootstrap-->	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+	
+	
+  </body>
+</html>
